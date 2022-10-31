@@ -1,4 +1,4 @@
-# Rithik BunnyLOL
+# bunnylol
 
 While I was at Facebook, I heavily used the internally developed tool `bunnylol`. I found several other versions of `bunnylol` that required me to host a server. This version of `bunnylol` _does not_ need to be hosted on a server.
 
