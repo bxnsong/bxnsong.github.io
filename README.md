@@ -18,7 +18,6 @@ A note: a lot of these commands are customized for me. It is probably most benef
 | r       | Reddit                  | [https://reddit.com/](https://reddit.com/)                                       |
 | g       | Google                  | [https://google.com/](https://google.com/)                                       |
 | n       | Netflix                 | [https://netflix.com/](https://netflix.com/)                                     |
-| $       | Robinhood               | [https://robinhood.com/](https://robinhood.com/)                                 |
 | cal     | Google Calendar         | [https://calendar.google.com/calendar/r](https://calendar.google.com/calendar/r) |
 | DEFAULT | Default - Google Search | [https://google.com/](https://google.com/)                                       |
 
