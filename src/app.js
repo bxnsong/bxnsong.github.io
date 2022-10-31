@@ -24,27 +24,6 @@ const bunnylol: (string) => Promise<boolean> = async function (currCmd: string) 
     const prefix: string = arr[0].endsWith('.')
       ? arr[0].substring(0, arr[0].length - 1).toLowerCase()
       : arr[0].toLowerCase();
-    if (prefix in CLASSES) {
-      // $FlowFixMe - this is actually correct since the prefix is a key.
-      const classData: ClassType = CLASSES[prefix];
-      if (arr.length > 1) {
-        if (arr[1].toLowerCase() === 'j' && classData.zoomurl) {
-          await redirect(`${classData.zoomurl}`);
-          return true;
-        } else if (arr[1].toLowerCase() === 'd' && classData.discussionurl) {
-          await redirect(`${classData.discussionurl}`);
-          return true;
-        } else if (arr[1].toLowerCase() === 'c' && classData.collaburl) {
-          await redirect(`${classData.collaburl}`);
-          return true;
-        } else if (arr[1].toLowerCase() === 's' && classData.specialurl) {
-          await redirect(`${classData.specialurl}`);
-          return true;
-        }
-      }
-      await redirect(`${classData.url}`);
-      return true;
-    }
     if (prefix in COMMANDS) {
       // $FlowFixMe - this is actually correct since the prefix is a key.
       const command: CommandType = COMMANDS[prefix];
