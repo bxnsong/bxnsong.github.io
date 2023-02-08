@@ -6,21 +6,6 @@ Currently, this is hosted on [https://bxnsong.github.io/](https://bxnsong.github
 
 A note: a lot of these commands are customized for me. It is probably most beneficial for you to fork this repo and add/remove commands so that it is optimized for commands you actually need.
 
-## Example Commands
-
-| Command | Name                    | URL                                                                              |
-| ------- | ----------------------- | -------------------------------------------------------------------------------- |
-| fb      | Facebook                | [https://facebook.com/](https://facebook.com/)                                   |
-| m       | Messenger Web           | [https://www.messenger.com/](https://www.messenger.com/)                         |
-| gm      | Gmail                   | [https://mail.google.com/mail/u/0](https://mail.google.com/mail/u/0)             |
-| yt      | YouTube                 | [https://youtube.com/](https://youtube.com/)                                     |
-| gh      | GitHub                  | [https://github.com/](https://github.com/)                                       |
-| r       | Reddit                  | [https://reddit.com/](https://reddit.com/)                                       |
-| g       | Google                  | [https://google.com/](https://google.com/)                                       |
-| n       | Netflix                 | [https://netflix.com/](https://netflix.com/)                                     |
-| cal     | Google Calendar         | [https://calendar.google.com/calendar/r](https://calendar.google.com/calendar/r) |
-| DEFAULT | Default - Google Search | [https://google.com/](https://google.com/)                                       |
-
 ## Setup
 
 1. Open Chrome and click the three dots. Click `Settings` and scroll down to `Search Engines`.
