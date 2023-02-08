@@ -6,7 +6,7 @@ export type CommandType = {|
   searchurl?: string,
 |};
 
-export type CommandNames = 'fb' | 'm' | 't' | 'gm' | 'yt' | 'gh' | 'pr' | 'r' | 'g' | 'n' | 'cal' | 'DEFAULT';
+export type CommandNames = 'fb' | 'm' | 'exp' | 't' | 'gm' | 'yt' | 'gh' | 'pr' | 'r' | 'g' | 'n' | 'cal' | 'DEFAULT';
 
 export type CommandDataTableType = {|
   name: string,
@@ -47,6 +47,10 @@ export const COMMANDS: {[CommandNames]: CommandType} = {
   pr: {
     name: 'Discord PRs',
     url: 'https://github.com/discord/discord/pulls/@me',
+  },
+  exp: {
+    name: 'Discord Experiments',
+    url: 'https://admin.discord.co/experiments/',
   },
   r: {
     name: 'Reddit',
