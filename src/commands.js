@@ -47,6 +47,7 @@ export const COMMANDS: {[CommandNames]: CommandType} = {
   pr: {
     name: 'Discord PRs',
     url: 'https://github.com/discord/discord/pulls/@me',
+    searchurl: 'https://github.com/discord/discord/pulls/',
   },
   exp: {
     name: 'Discord Experiments',
